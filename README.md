@@ -11,8 +11,10 @@ Add as a first buildpack in the chain. Set `PROJECT_PATH` environment variable t
 6. Deploy your project to Heroku.
 
 ## Defaults:
-`PROJECT_PATH` = `backend`
-`PROCFILE` = `Procfile`
+```
+PROJECT_PATH = backend
+PROCFILE     = Procfile
+```
 
 # How it works
 - Rename the PROCFILE if provided to Procfile under PROJECT_PATH
